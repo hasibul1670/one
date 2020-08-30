@@ -1,0 +1,13 @@
+.box{
+    width: 150px;
+    height: 70px;
+    border: 2px solid red;
+}
+.outer{
+    background-color: royalblue;
+}
+.inner{
+
+    background-color: slategrey;
+transform:rotate(30deg) scale(0.5);
+}

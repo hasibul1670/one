@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+    @keyframes slidein { 
+        0%{
+            left: 0;
+            top: 0;
+            background-color: green;
+    }
+    25%
+    {   top: 200px;
+        left: 200px;
+        background-color: greenyellow;
+    }
+    50%{
+        top: 0;
+        left: 400px;
+        background-color: yellow;
+    }
+    75%{
+        top:200px ;
+        left:600px;
+        background-color: tomato;
+    }
+    100% {
+        left: 800px;
+        top: 0;
+        background-color: red;
+    }
+        
+    }
+.stage:hover .ball{
+    animation: slidein 3.54s ease-in-out .1s infinite alternate;
+}
+    
+            .ball {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+
+        }
+
+        .stage {
+            background-color: rosybrown;
+            height: 300px;
+            min-width: 800px;
+        }
+    </style>
+
+<body>
+    <!-- <div class="field"> 
+    <img class ="bat"src="audio/bat.jpg" alt="" srcset="">
+
+    <div class="ball"></div>
+</div>-->
+
+
+    <div class="stage">
+
+        <div class="ball"></div>
+    </div>
+
+
+</body>
+
+
+
+</html3
